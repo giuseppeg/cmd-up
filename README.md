@@ -6,7 +6,7 @@ You know `⌘ + Up-Arrow` in Finder.
 
 # Installation
 
-In Chrome open `chrome://extensions` and drag and drop `index.js`.
+In Chrome open `chrome://extensions` and drag and drop `index.user.js`.
 
 # Usage
 
@@ -14,7 +14,7 @@ Press `Cmd + Up-Arrow` from any `github.com/` folder.
 
 # Known issues
 
-* [#1](#1)
+* [#1](issues/1)
 
 # License
 
