@@ -9,6 +9,7 @@
     if (!e.metaKey || e.keyCode !== 38) {
       return;
     }
+    e.preventDefault();
     var p = window.location.pathname.split('/');
     p.pop();
     (p.slice(-1) == 'tree' && p.splice(-1)) || (p.slice(-2, -1) == 'blob' && p.splice(-2, 1, 'tree'));
