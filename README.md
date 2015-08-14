@@ -12,10 +12,6 @@ In Chrome open `chrome://extensions` and drag and drop `index.user.js`.
 
 Press `Cmd + Up-Arrow` from any `github.com/` folder.
 
-# Known issues
-
-* [#1](issues/1)
-
 # License
 
 MEAT

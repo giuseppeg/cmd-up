@@ -5,8 +5,13 @@
 // @match https://github.com/*
 // ==/UserScript==
 (function () {
+  var ignoreElement = {
+    'input': true,
+    'textarea': true
+  };
+
   document.addEventListener('keydown', function (e) {
-    if (!e.metaKey || e.keyCode !== 38) {
+    if (!e.metaKey || e.keyCode !== 38 || ignoreElement[document.activeElement.nodeName.toLowerCase()]) {
       return;
     }
     e.preventDefault();
